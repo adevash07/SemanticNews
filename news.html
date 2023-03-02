@@ -7,7 +7,7 @@
   <body>
     <header>
       <h1>
-        <a href="https://www.frontline.com">Frontline</a>: Breaking News -
+        <a href="https://www.techreturner.com">TechReturner</a>: Breaking News -
         Example Article Title
       </h1>
       <p>
@@ -29,57 +29,92 @@
       <article>
         <h2>Example Article Title</h2>
         <p class="article-subheader">
-          A detailed look at the effects of climate change on coastal
-          communities
+          Accessibility Features: Easy Wins for Web Designers
         </p>
         <div class="article-meta">
-          <p class="article-author">By John Doe</p>
+          <p class="article-author">
+            Written by <a href="mailto:johndoe@accessibilty.com">John Doe</a>
+          </p>
+          <p class="article-date">Published on March 1, 2023</p>
+
+          <p class="article-tags">
+            Tags:
+            <a href="#">Accessibility</a>
+            <a href="#">Web Design</a>
+            <a href="#">User Experience</a>
+          </p>
         </div>
         <img
           src="https://example.com/image.jpg"
           alt="A photo of a coastal community affected by climate change"
           class="article-image"
         />
-        <p>Here is the main content of the article.</p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at magna
-          tincidunt, efficitur enim vitae, ullamcorper lorem. Maecenas malesuada
-          est nec ipsum malesuada, a dictum mi pharetra. Aliquam sed lorem
-          euismod, malesuada lacus a, venenatis purus. Nullam fringilla, felis
-          eget vulputate pulvinar, turpis lacus tristique tellus, et bibendum
-          lorem ipsum quis tellus. Nam ut lorem quis orci varius pulvinar. Cras
-          a nisi leo. Nulla tempor vestibulum justo, in pellentesque odio
-          tincidunt vel. Nullam id libero euismod, semper nunc id, vehicula
-          velit.
-        </p>
-        <p>
-          Mauris eget ultrices nibh. Donec sed lacus fringilla, viverra ex eu,
-          mattis enim. Morbi vel rutrum leo. Donec pharetra orci ut risus semper
-          fringilla. Donec vitae mi eget elit bibendum consequat. Integer ut
-          velit ultricies, vestibulum ipsum sed, faucibus lectus. Morbi a libero
-          commodo, tincidunt massa vel, rutrum libero. Donec vitae arcu blandit,
-          laoreet mauris sit amet, iaculis massa.
-        </p>
-        <blockquote>
-          <p>"This is a quote from someone relevant to the article."</p>
-          <cite>Source of quote</cite>
-        </blockquote>
-        <h2>Subheading 1</h2>
-        <p>More content here.</p>
-        <h3>Sub-subheading 1.1</h3>
-        <p>More content here.</p>
-        <h2>Subheading 2</h2>
-        <p>More content here.</p>
-        <ul>
-          <li>List item 1</li>
-          <li>List item 2</li>
-          <li>List item 3</li>
-        </ul>
-        <p>Final thoughts on the topic.</p>
+
+        <section>
+          <h3>Introduction</h3>
+          <p>
+            Tim Berners Lee dreamt of a World Wide Web that would be free and
+            accessible to everyone. Sadly, the modern web is littered with
+            poorly designed websites and difficult to navigate code (for both
+            developers and users). This often comes down to a lack of
+            understanding around different user needs. Designing pages that are
+            accessible for everyone shouldn’t be too difficult. The developers
+            at Tech Returners News have collated an ‘easy wins' checklist for
+            Web page accessibility. Keep this guide handy... When creating your
+            own websites you can check these criteria off the list!
+          </p>
+        </section>
+
+        <section>
+          <h3>Background</h3>
+          <p>
+            More detailed information about the topic, including relevant
+            history or context.
+          </p>
+          <blockquote>
+            <p>"This is a quote from someone relevant to the article."</p>
+            <cite>Source of quote</cite>
+          </blockquote>
+        </section>
+
+        <section>
+          <h3>Current Status</h3>
+          <p>
+            An update on the current state of affairs, including recent
+            developments or news.
+          </p>
+        </section>
+
+        <section>
+          <h3>Analysis</h3>
+          <p>
+            An analysis of the topic, including key arguments or perspectives.
+          </p>
+          <h2>handy tips on how to create websites for everyone</h2>
+          <p>More content here.</p>
+          <h3>Sub-subheading 1.1</h3>
+          <p>More content here.</p>
+          <h2>Subheading 2</h2>
+          <p>More content here.</p>
+          <ul>
+            <li>List item 1</li>
+            <li>List item 2</li>
+            <li>List item 3</li>
+          </ul>
+          <p>Final thoughts on the topic.</p>
+        </section>
+
+        <section>
+          <h3>Conclusion</h3>
+          <p>
+            A summary of the article's content and any final thoughts or
+            recommendations.
+          </p>
+        </section>
       </article>
     </main>
     <aside>
-      <h2>Latest News</h2>
+      <h2>Related Articles</h2>
       <ul>
         <li><a href="#">Headline 1</a></li>
         <li><a href="#">Headline 2</a></li>
@@ -93,14 +128,29 @@
     </footer>
 
     <div id="accessibility-options">
-      <h2>Accessibility Options</h2>
+      <h2>Accessibility Options(Preferences)</h2>
+      <p>
+        We aim to make this site accessible to wide audience and to ensure a
+        great experience for all users by conforming to World Wide Web
+        Consortium accessibility guidelines (W3C's WCAG) However, if you are
+        having trouble reading this website you can change the way it looks or
+        disable some of its functionalities. (Checkbox) Allow flashing elements
+        Untick this to disable flashing and moving elements
+      </p>
+
       <ul>
         <li>
-          <a href="#" id="toggle-high-contrast">Toggle High Contrast Mode</a>
+          <input type="checkbox" id="allow-flashing-elements" />
+          <label for="allow-flashing-elements">Allow flashing elements</label>
         </li>
-        <li><a href="#" id="increase-font-size">Increase Font Size</a></li>
-        <li><a href="#" id="decrease-font-size">Decrease Font Size</a></li>
-        <li><a href="#" id="toggle-dark-mode">Toggle Dark Mode</a></li>
+        <li>
+          <input type="checkbox" id="allow-moving-elements" />
+          <label for="allow-moving-elements">Allow moving elements</label>
+        </li>
+        <li>
+          <input type="checkbox" id="allow-animations" />
+          <label for="allow-animations">Allow animations</label>
+        </li>
       </ul>
     </div>
   </body>
