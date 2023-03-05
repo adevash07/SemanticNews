@@ -3,10 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <title>Breaking News: Example Article Title</title>
+    <meta name="description" content="Example Article Description" />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./news.css" />
   </head>
   <body>
-    <header>
-      <h1>
+    <header class="header">
+      <nav class="header__nav">
+        <div class="header__navRight">
+          <a class="header__navBrand" href="https://www.techreturner.com">
+            <img
+              class="header__navBrandLogo"
+              src="./images/svg/medium-logo-fill-svgrepo-com.svg"
+              alt="TechReturner Logo"
+            />
+            <input
+              class="header__navSearch"
+              type="search"
+              placeholder="Search"
+            />
+            <label class="header__navSearchLogo" for="search">Search</label>
+          </a>
+        </div>
+        <div class="header__navLeft">
+          <a class="header__navWriteLogo" href="#"
+            ><img src="./images/svg/write-svgrepo-com.svg" alt="User" />
+            <span class="header__navWrite">Write</span></a
+          >
+          <a class="header__navBell" href="#"
+            ><img src="./images/svg/bell-svgrepo-com.svg" alt="Bell" />
+          </a>
+          <span class="header__navUser"
+            ><span class="header__navUserText">A</span></span
+          >
+        </div>
+      </nav>
+      <!-- <h1>
         <a href="https://www.techreturner.com">TechReturner</a>: Breaking News -
         Example Article Title
       </h1>
@@ -14,7 +46,7 @@
         Published on
         <time datetime="2023-03-01T12:34:56-05:00">March 1, 2023</time> by John
         Doe
-      </p>
+      </p> -->
     </header>
     <nav>
       <ul>
