@@ -200,5 +200,168 @@ blockquote {
   font-style: italic;
 }
 
+blockquote p {
+  margin: 0;
+}
+
+blockquote p:first-child {
+  margin-top: 0;
+}
+
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+/* Style the footer */
+
+.footer {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f3f3f3;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+  color: #777;
+}
+
+.footer a {
+  color: #777;
+}
+
+/* Style the related articles */
+
+.related__articles {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f3f3f3;
+  text-align: center;
+}
+
+.related__articlesTitle {
+  margin: 0;
+  color: #333;
+}
+
+.related__articlesList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.related__articlesItem {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.related__articleslink {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Style the accessibility options */
+.accessibility--options__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6rem;
+  height: 3rem;
+  margin-left: 1rem;
+  border-radius: 0.5rem;
+  background-color: #ddd;
+  padding: 0.5rem;
+  z-index: 2;
+}
+.accessibility--options__button__text {
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.accessibility--options {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.accessibility--options.active {
+  display: block;
+}
+.accessibility--optionsButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  margin-left: 1rem;
+  border-radius: 50%;
+  background-color: #ddd;
+}
+
+.accessibility--optionsDescription {
+  margin-left: 1rem;
+}
+
+.accessibility--optionsList {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.accessibility--optionsItem {
+  margin-top: 1rem;
+}
+
+.accessibility--options__buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.accessibility--options__save {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6rem;
+  height: 3rem;
+  margin-left: 1rem;
+  border-radius: 0.5rem;
+  background-color: #ddd;
+  padding: 0.5rem;
+  z-index: 2;
+}
+
+.accessibility--options__save__text {
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.accessibility--options__cancel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6rem;
+  height: 3rem;
+  margin-left: 1rem;
+  border-radius: 0.5rem;
+  background-color: #ddd;
+  padding: 0.5rem;
+  z-index: 2;
+}
+
+.accessibility--options__cancel__text {
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
 /* blockquote p {
   margin:  */
